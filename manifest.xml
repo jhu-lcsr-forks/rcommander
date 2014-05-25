@@ -1,0 +1,24 @@
+<package>
+
+  <description brief="rcommander">
+      Package for RCommander runtime and libraries. See stack documentation for tutorials and documentation.
+  </description>
+
+  <author>Hai Nguyen (haidai@gmail.com)</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rcommander_core</url>
+
+  <rosdep name="python-qt4-gl"/>
+  <depend package="rospy"/>
+  <depend package="nodebox_qt"/>
+  <depend package="smach"/>
+  <depend package="smach_ros"/>
+  <depend package="actionlib"/>
+  <depend package="geometry_msgs"/>
+  <depend package="tf"/>
+  <depend package="tf_broadcast_server"/>
+
+</package>
+
+
